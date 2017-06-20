@@ -1,0 +1,8 @@
+# Move this file to ~/.config/radiusclient
+[MySQL]
+host     = localhost
+user     = YOURDBUSER
+password = YOURDBPASSWORD
+database = YOURDBNAME
+# Not implemented
+#table    = radcheck

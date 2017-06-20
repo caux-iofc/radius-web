@@ -1,0 +1,125 @@
+body {
+font-family:sans-serif;
+font-size:12px;
+background:#fff;
+}
+
+.clear {
+	clear: both;
+}
+
+div#nav {
+  width: 250px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+ul#nav {
+list-style:none;
+margin:20px;
+padding:0;
+width:525px
+}
+
+ul#nav li {
+display:inline
+}
+
+ul#nav li a {
+text-decoration:none;
+padding:5px 0;
+margin:0 2px;
+width:100px;
+color:#000;
+background:#ebf4fb;
+float:left;
+text-align:center;
+border:1px solid #b7ddf2;
+}
+
+ul#nav li a:hover {
+background:#f7fcff;
+}
+
+p,h1,form,button {
+border:0;
+margin:0;
+padding:0;
+}
+
+.spacer {
+clear:both;
+height:1px;
+}
+
+.myform {
+width:400px;
+margin:0 auto;
+padding:14px;
+}
+
+#stylized {
+border:solid 1px #b7ddf2;
+background:#ebf4fb;
+}
+
+#stylized h1 {
+font-size:14px;
+font-weight:700;
+margin-bottom:8px;
+}
+
+#stylized p {
+font-size:11px;
+color:#666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+
+#stylized label {
+display:block;
+font-weight:700;
+text-align:right;
+width:140px;
+float:left;
+}
+
+#stylized .small {
+color:#666;
+display:block;
+font-size:11px;
+font-weight:400;
+text-align:right;
+width:140px;
+}
+
+#stylized input, select {
+float:left;
+font-size:12px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+padding:4px 2px;
+}
+
+.placed {
+float:left;
+font-size:12px;
+width:200px;
+margin:2px 0 20px 10px;
+padding:4px 2px;
+}
+
+#stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
